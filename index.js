@@ -63,7 +63,7 @@ async function run() {
       body: JSON.stringify(
         buildMessage({
           title: core.getInput("title"),
-          env: core.getInput("environment"),
+          env: core.getInput("env"),
           version: core.getInput("version"),
           date: new Date().toTimeString(),
           actor: context.actor,
