@@ -1,0 +1,19 @@
+# action.yml
+name: "Hello World"
+description: "Greet someone and record the time"
+inputs:
+  title:
+    description: "Message title"
+    required: true
+  env:
+    description: "Environment"
+    required: true
+  version:
+    description: "Version"
+    required: true
+  link:
+    description: "Link"
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"
