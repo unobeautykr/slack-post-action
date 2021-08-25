@@ -14,6 +14,9 @@ inputs:
   link:
     description: "Link"
     required: true
+  webhookUrl:
+    description: "webhook url"
+    required: true
 runs:
   using: "node12"
   main: "dist/index.js"
