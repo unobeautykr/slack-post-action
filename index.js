@@ -58,7 +58,7 @@ async function run() {
 
     const context = github.context;
 
-    fetch(webhookUrl, {
+    await fetch(webhookUrl, {
       method: "POST",
       body: JSON.stringify(
         buildMessage({
