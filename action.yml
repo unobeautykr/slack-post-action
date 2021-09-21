@@ -1,6 +1,6 @@
 # action.yml
-name: "Hello World"
-description: "Greet someone and record the time"
+name: "Post Slack Message"
+description: "Post build result message to slack channel"
 inputs:
   title:
     description: "Message title"
